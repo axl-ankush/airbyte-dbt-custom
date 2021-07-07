@@ -1,5 +1,5 @@
 select
-    name,
+    a.name,
     b.base_stat status_value,
     c.name status_name
 from {{ ref('poke_pokemon') }} a
