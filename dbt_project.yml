@@ -33,7 +33,7 @@ models:
         +materialized: ephemeral
       airbyte_incremental:
         +tags: incremental_tables
-        +materialized: table
+        +materialized: incremental
       airbyte_tables:
         +tags: normalized_tables
         +materialized: table
